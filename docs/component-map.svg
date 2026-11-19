@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" font-family="Segoe UI, Inter, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,0 L10,5 L0,10z" fill="#1f2a44"/></marker><marker id="t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,0 L10,5 L0,10z" fill="#0d7a6c"/></marker></defs>
+<rect width="2000" height="1400" fill="#ffffff"/>
+<text x="1000.0" y="62" text-anchor="middle" font-size="36" font-weight="700" fill="#1a2440">Sprinto Outreach · Cold-Email Pipeline — Components Map</text>
+<rect x="24" y="95" width="1950" height="70" rx="10" fill="#1f2a44"/>
+<text x="141.0" y="138" text-anchor="middle" font-size="22" fill="#fff">Actor</text>
+<text x="401.0" y="138" text-anchor="middle" font-size="22" fill="#fff">Trigger</text>
+<line x1="258" y1="95" x2="258" y2="165" stroke="#33405f"/>
+<text x="687.0" y="138" text-anchor="middle" font-size="22" fill="#fff">Input</text>
+<line x1="544" y1="95" x2="544" y2="165" stroke="#33405f"/>
+<text x="973.0" y="138" text-anchor="middle" font-size="22" fill="#fff">Context</text>
+<line x1="830" y1="95" x2="830" y2="165" stroke="#33405f"/>
+<text x="1259.0" y="138" text-anchor="middle" font-size="22" fill="#fff">Processing</text>
+<line x1="1116" y1="95" x2="1116" y2="165" stroke="#33405f"/>
+<text x="1545.0" y="138" text-anchor="middle" font-size="22" fill="#fff">AI</text>
+<line x1="1402" y1="95" x2="1402" y2="165" stroke="#33405f"/>
+<text x="1831.0" y="138" text-anchor="middle" font-size="22" fill="#fff">Output</text>
+<line x1="1688" y1="95" x2="1688" y2="165" stroke="#33405f"/>
+<rect x="258" y="165" width="1716" height="150" fill="#eef0fd"/>
+<rect x="24" y="165" width="234" height="150" fill="#1f2a44"/>
+<line x1="24" y1="165" x2="258" y2="165" stroke="#33405f"/>
+<text x="141.0" y="236.0" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">Growth Lead</text>
+<text x="141.0" y="262.0" text-anchor="middle" font-size="16" fill="#c9d1e3">(you · runs the pipeline)</text>
+<rect x="258" y="315" width="1716" height="150" fill="#fdf1ec"/>
+<rect x="24" y="315" width="234" height="150" fill="#1f2a44"/>
+<line x1="24" y1="315" x2="258" y2="315" stroke="#33405f"/>
+<text x="141.0" y="386.0" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">Prospect websites</text>
+<text x="141.0" y="412.0" text-anchor="middle" font-size="16" fill="#c9d1e3">(public pages only)</text>
+<rect x="258" y="465" width="1716" height="170" fill="#fef8e4"/>
+<rect x="24" y="465" width="234" height="170" fill="#1f2a44"/>
+<line x1="24" y1="465" x2="258" y2="465" stroke="#33405f"/>
+<text x="141.0" y="546.0" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">Pipeline</text>
+<text x="141.0" y="572.0" text-anchor="middle" font-size="16" fill="#c9d1e3">(Next.js app on Vercel)</text>
+<rect x="258" y="635" width="1716" height="280" fill="#e7f7ee"/>
+<rect x="24" y="635" width="234" height="280" fill="#1f2a44"/>
+<line x1="24" y1="635" x2="258" y2="635" stroke="#33405f"/>
+<text x="141.0" y="771.0" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">AI Model</text>
+<text x="141.0" y="797.0" text-anchor="middle" font-size="16" fill="#c9d1e3">(Gemini)</text>
+<rect x="258" y="915" width="1716" height="160" fill="#fcecf2"/>
+<rect x="24" y="915" width="234" height="160" fill="#1f2a44"/>
+<line x1="24" y1="915" x2="258" y2="915" stroke="#33405f"/>
+<text x="141.0" y="991.0" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">Services</text>
+<text x="141.0" y="1017.0" text-anchor="middle" font-size="16" fill="#c9d1e3">(Hunter, Gmail, Neon)</text>
+<rect x="258" y="1075" width="1716" height="160" fill="#ebf1fd"/>
+<rect x="24" y="1075" width="234" height="160" fill="#1f2a44"/>
+<line x1="24" y1="1075" x2="258" y2="1075" stroke="#33405f"/>
+<text x="141.0" y="1151.0" text-anchor="middle" font-size="23" font-weight="700" fill="#fff">Growth Lead</text>
+<text x="141.0" y="1177.0" text-anchor="middle" font-size="16" fill="#c9d1e3">(reviewer · human gates)</text>
+<line x1="544" y1="165" x2="544" y2="1235" stroke="#d5d9e3"/>
+<line x1="830" y1="165" x2="830" y2="1235" stroke="#d5d9e3"/>
+<line x1="1116" y1="165" x2="1116" y2="1235" stroke="#d5d9e3"/>
+<line x1="1402" y1="165" x2="1402" y2="1235" stroke="#d5d9e3"/>
+<line x1="1688" y1="165" x2="1688" y2="1235" stroke="#d5d9e3"/>
+<rect x="279.0" y="185" width="244" height="110" rx="12" fill="#e1e4fb" stroke="#5a5fd6" stroke-width="2.5"/>
+<text x="401.0" y="220.0" text-anchor="middle" font-size="18" fill="#1a2440">Pastes a list of domains</text>
+<text x="401.0" y="246.0" text-anchor="middle" font-size="18" fill="#1a2440">(stage optional), clicks</text>
+<text x="401.0" y="272.0" text-anchor="middle" font-size="18" fill="#1a2440">“Run pipeline”</text>
+<rect x="565.0" y="335" width="244" height="110" rx="12" fill="#fde1d6" stroke="#e8743b" stroke-width="2.5"/>
+<text x="687.0" y="370.0" text-anchor="middle" font-size="18" fill="#1a2440">Homepage, trust centre,</text>
+<text x="687.0" y="396.0" text-anchor="middle" font-size="18" fill="#1a2440">careers page, job board</text>
+<text x="687.0" y="422.0" text-anchor="middle" font-size="18" fill="#1a2440">(robots.txt respected)</text>
+<rect x="565.0" y="495" width="244" height="110" rx="12" fill="#fdefc0" stroke="#d9a400" stroke-width="2.5"/>
+<text x="687.0" y="530.0" text-anchor="middle" font-size="18" fill="#1a2440">Scraper reads + cleans</text>
+<text x="687.0" y="556.0" text-anchor="middle" font-size="18" fill="#1a2440">pages; job boards via</text>
+<text x="687.0" y="582.0" text-anchor="middle" font-size="18" fill="#1a2440">their public APIs</text>
+<circle cx="571.0" cy="501" r="17" fill="#1f2a44"/><text x="571.0" y="507" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<rect x="851.0" y="495" width="244" height="110" rx="12" fill="#fdefc0" stroke="#d9a400" stroke-width="2.5"/>
+<text x="973.0" y="530.0" text-anchor="middle" font-size="18" fill="#1a2440">ICP rules + Sprinto facts</text>
+<text x="973.0" y="556.0" text-anchor="middle" font-size="18" fill="#1a2440">+ lessons learned from</text>
+<text x="973.0" y="582.0" text-anchor="middle" font-size="18" fill="#1a2440">your past edits</text>
+<rect x="1137.0" y="495" width="244" height="110" rx="12" fill="#fdefc0" stroke="#d9a400" stroke-width="2.5"/>
+<text x="1259.0" y="530.0" text-anchor="middle" font-size="18" fill="#1a2440">Code checks every quote,</text>
+<text x="1259.0" y="556.0" text-anchor="middle" font-size="18" fill="#1a2440">runs the ICP gates; agent</text>
+<text x="1259.0" y="582.0" text-anchor="middle" font-size="18" fill="#1a2440">loop reads more pages</text>
+<circle cx="1143.0" cy="501" r="17" fill="#1f2a44"/><text x="1143.0" y="507" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<rect x="1423.0" y="655" width="244" height="100" rx="12" fill="#d4f2df" stroke="#2f9e5b" stroke-width="2.5"/>
+<text x="1545.0" y="685.0" text-anchor="middle" font-size="18" fill="#1a2440">Extracts facts, each</text>
+<text x="1545.0" y="711.0" text-anchor="middle" font-size="18" fill="#1a2440">with a verbatim quote</text>
+<text x="1545.0" y="737.0" text-anchor="middle" font-size="18" fill="#1a2440">from the page</text>
+<circle cx="1429.0" cy="661" r="17" fill="#1f2a44"/><text x="1429.0" y="667" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<rect x="1423.0" y="795" width="244" height="100" rx="12" fill="#d4f2df" stroke="#2f9e5b" stroke-width="2.5"/>
+<text x="1545.0" y="825.0" text-anchor="middle" font-size="18" fill="#1a2440">Writes 2 pain points +</text>
+<text x="1545.0" y="851.0" text-anchor="middle" font-size="18" fill="#1a2440">the email, using only</text>
+<text x="1545.0" y="877.0" text-anchor="middle" font-size="18" fill="#1a2440">verified quotes</text>
+<circle cx="1429.0" cy="801" r="22" fill="#1f2a44"/><text x="1429.0" y="807" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">5·6</text>
+<rect x="1709.0" y="495" width="244" height="110" rx="12" fill="#fdefc0" stroke="#d9a400" stroke-width="2.5"/>
+<text x="1831.0" y="530.0" text-anchor="middle" font-size="18" fill="#1a2440">Validator: 11 checks</text>
+<text x="1831.0" y="556.0" text-anchor="middle" font-size="18" fill="#1a2440">(name, hook, no invented</text>
+<text x="1831.0" y="582.0" text-anchor="middle" font-size="18" fill="#1a2440">numbers); 1 auto-rewrite</text>
+<rect x="1137.0" y="940" width="244" height="110" rx="12" fill="#f9d7e5" stroke="#d63f86" stroke-width="2.5"/>
+<text x="1259.0" y="975.0" text-anchor="middle" font-size="18" fill="#1a2440">Hunter finds people;</text>
+<text x="1259.0" y="1001.0" text-anchor="middle" font-size="18" fill="#1a2440">title rules pick the</text>
+<text x="1259.0" y="1027.0" text-anchor="middle" font-size="18" fill="#1a2440">decision-maker (CTO…)</text>
+<circle cx="1143.0" cy="946" r="17" fill="#1f2a44"/><text x="1143.0" y="952" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">4</text>
+<rect x="1709.0" y="940" width="244" height="110" rx="12" fill="#f9d7e5" stroke="#d63f86" stroke-width="2.5"/>
+<text x="1831.0" y="975.0" text-anchor="middle" font-size="18" fill="#1a2440">Gmail sends to YOUR</text>
+<text x="1831.0" y="1001.0" text-anchor="middle" font-size="18" fill="#1a2440">inbox only; Neon saves</text>
+<text x="1831.0" y="1027.0" text-anchor="middle" font-size="18" fill="#1a2440">every decision + quote</text>
+<circle cx="1715.0" cy="946" r="17" fill="#1f2a44"/><text x="1715.0" y="952" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">7</text>
+<rect x="1709.0" y="1100" width="244" height="110" rx="12" fill="#fde1dc" stroke="#e04a3a" stroke-width="2.5"/>
+<text x="1831.0" y="1135.0" text-anchor="middle" font-size="18" fill="#1a2440">Dashboard: inbox email,</text>
+<text x="1831.0" y="1161.0" text-anchor="middle" font-size="18" fill="#1a2440">review queue, drafts,</text>
+<text x="1831.0" y="1187.0" text-anchor="middle" font-size="18" fill="#1a2440">decision trail</text>
+<path d="M401.0,295 L401.0,550 L561.0,550" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<path d="M687.0,445 L687.0,491" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="701.0" y="474" text-anchor="start" font-size="15" font-style="italic" fill="#4b5570">pages</text>
+<path d="M809.0,550 L847.0,550" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<path d="M1095.0,550 L1133.0,550" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<path d="M1381.0,530 L1585.0,530 L1585.0,651" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="1595.0" y="600" text-anchor="start" font-size="15" font-style="italic" fill="#4b5570">page text</text>
+<path d="M1423.0,705 L1299.0,705 L1299.0,609" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="1309.0" y="690" text-anchor="start" font-size="15" font-style="italic" fill="#4b5570">facts + quotes</text>
+<text x="1207.0" y="790" text-anchor="end" font-size="15" font-style="italic" fill="#b4372f">✕ dropped or unclear</text>
+<text x="1207.0" y="810" text-anchor="end" font-size="15" font-style="italic" fill="#b4372f">→ review queue (gate 1)</text>
+<text x="1787.0" y="680" font-size="14" font-style="italic" fill="#b4372f">✕ fails a check</text>
+<text x="1787.0" y="698" font-size="14" font-style="italic" fill="#b4372f">→ drafts, gate 2</text>
+<path d="M1219.0,605 L1219.0,936" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="1225.0" y="880" text-anchor="start" font-size="15" font-style="italic" fill="#4b5570">qualified</text>
+<path d="M1381.0,995 L1545.0,995 L1545.0,899" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="1553.0" y="970" text-anchor="start" font-size="15" font-style="italic" fill="#4b5570">contact</text>
+<path d="M1667.0,845 L1781.0,845 L1781.0,609" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="1787.0" y="760" text-anchor="start" font-size="15" font-style="italic" fill="#4b5570">draft</text>
+<path d="M1891.0,605 L1891.0,936" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<text x="1897.0" y="770" text-anchor="start" font-size="15" font-style="italic" fill="#4b5570">passes</text>
+<path d="M1831.0,1050 L1831.0,1096" fill="none" stroke="#1f2a44" stroke-width="2.4" stroke-dasharray="7 6" marker-end="url(#a)"/>
+<path d="M1709.0,1170 L973.0,1170 L973.0,609" fill="none" stroke="#0d7a6c" stroke-width="2.4" stroke-dasharray="3 6" marker-end="url(#t)"/>
+<text x="985.0" y="1150" text-anchor="start" font-size="15" font-style="italic" fill="#0d7a6c">feedback loop: your edits</text>
+<text x="985.0" y="1192" text-anchor="start" font-size="15" font-style="italic" fill="#0d7a6c">become lessons for the writer</text>
+<rect x="24" y="1250" width="1950" height="130" rx="10" fill="#f6f7fb" stroke="#e1e4ec"/>
+<text x="48" y="1285" font-size="18" font-weight="700" fill="#1a2440">The case’s 7 steps:</text>
+<circle cx="254" cy="1279" r="14" fill="#1f2a44"/><text x="254" y="1285" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text><text x="276" y="1285" font-size="18" fill="#1a2440">Scrape</text>
+<circle cx="482" cy="1279" r="14" fill="#1f2a44"/><text x="482" y="1285" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text><text x="504" y="1285" font-size="18" fill="#1a2440">Extract</text>
+<circle cx="710" cy="1279" r="14" fill="#1f2a44"/><text x="710" y="1285" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text><text x="732" y="1285" font-size="18" fill="#1a2440">Qualify</text>
+<circle cx="938" cy="1279" r="14" fill="#1f2a44"/><text x="938" y="1285" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">4</text><text x="960" y="1285" font-size="18" fill="#1a2440">Find contact</text>
+<circle cx="1166" cy="1279" r="14" fill="#1f2a44"/><text x="1166" y="1285" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">5</text><text x="1188" y="1285" font-size="18" fill="#1a2440">Pain points</text>
+<circle cx="1394" cy="1279" r="14" fill="#1f2a44"/><text x="1394" y="1285" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">6</text><text x="1416" y="1285" font-size="18" fill="#1a2440">Draft</text>
+<circle cx="1622" cy="1279" r="14" fill="#1f2a44"/><text x="1622" y="1285" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">7</text><text x="1644" y="1285" font-size="18" fill="#1a2440">Send</text>
+<text x="48" y="1325" font-size="17" fill="#4b5570">Dashed arrow = data moving between parts · Green dotted = feedback loop · Code decides every gate; Gemini only reads and writes · Emails go only to your own inbox, never the prospect.</text>
+<text x="48" y="1355" font-size="17" fill="#4b5570">Anything the rules cannot settle (no contact, unclear stage, failed validator check) waits for you in the review queue or drafts — nothing is guessed.</text>
+</svg>

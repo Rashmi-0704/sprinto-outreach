@@ -1,0 +1,4 @@
+{
+  "_readme": "Option B (Apollo, by hand). Used only when HUNTER_API_KEY is empty or Hunter finds nobody. Key = domain.",
+  "example.com": { "first_name": "Jane", "last_name": "Doe", "title": "CTO", "email": "jane@example.com", "source": "apollo" }
+}
