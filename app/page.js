@@ -16,11 +16,13 @@ const STEPS = [
 ];
 
 export default async function Overview({ searchParams }) {
-  const runs = await listRuns(20);
   const runId = searchParams?.run ? Number(searchParams.run) : null;
-  const all = await listCompanies(runId ? { runId } : {});
-  const events = await listEvents(12);
-  const learnings = await listLearnings({ activeOnly: true });
+  const [runs, all, events, learnings] = await Promise.all([
+    listRuns(20),
+    listCompanies(runId ? { runId } : {}),
+    listEvents(12),
+    listLearnings({ activeOnly: true }),
+  ]);
 
   const by = (s) => all.filter((c) => c.status === s);
   const qualified = all.filter((c) => c.qualification && ['qualified', 'review'].includes(c.qualification.verdict));

@@ -4,7 +4,7 @@ import { Suspense } from 'react';
 import Motion from '@/components/Motion';
 import { Inter, JetBrains_Mono } from 'next/font/google';
 import Nav from '@/components/Nav';
-import { listCompanies, listRuns, listLearnings, storageMode } from '@/lib/store';
+import { statusCounts, listRuns, listLearnings, storageMode } from '@/lib/store';
 import { aiConfigured } from '@/lib/gemini';
 import { gmailConfigured } from '@/lib/send';
 import { ago } from '@/lib/ui';
@@ -16,10 +16,10 @@ export const metadata = { title: 'Sprinto Outreach', description: 'Domain list i
 export const dynamic = 'force-dynamic';
 
 export default async function RootLayout({ children }) {
-  const [companies, runs, learnings] = await Promise.all([listCompanies(), listRuns(1), listLearnings({ activeOnly: true })]);
+  const [byStatus, runs, learnings] = await Promise.all([statusCounts(), listRuns(1), listLearnings({ activeOnly: true })]);
   const counts = {
-    review: companies.filter((c) => c.status === 'review' || c.status === 'error').length,
-    draft: companies.filter((c) => c.status === 'draft').length,
+    review: (byStatus.review || 0) + (byStatus.error || 0),
+    draft: byStatus.draft || 0,
     learnings: learnings.length,
   };
   const last = runs[0];
